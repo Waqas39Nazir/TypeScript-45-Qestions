@@ -6,13 +6,13 @@
  *  the name is displayed. Then print the name after striping the white spaces.
  */
 
-const personName = "Waqas Nazir";
+const personName: string = "Waqas Nazir";
 
-const nameWithSpaces = `\t${personName}\n`;
+const nameWithSpaces: string = `\t${personName}\n`;
 
 console.log("Name with spaces:", nameWithSpaces);
 
 //trim method will remove leading and trailing whitespaces
-const nameWithoutSpaces = nameWithSpaces.trim();
+const nameWithoutSpaces: string = nameWithSpaces.trim();
 
 console.log("Name without Spaces:", nameWithoutSpaces);
