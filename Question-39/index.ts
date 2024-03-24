@@ -7,7 +7,7 @@
  */
 
 function city_country(city: string, country: string): string {
-  return city + ", " + country;
+  return '"' + city + ", " + country + '"';
 }
 
 console.log(city_country("Delhi", "India"));
