@@ -4,8 +4,8 @@
  *  your message and store it in a new variable called message. Print your message.
  */
 
-const autherName = "Waqas Nazir";
-const autherQuote = "Practice makes a man perfect.";
-const message = `${autherName} once said, \"${autherQuote}\"`;
+const autherName: string = "Waqas Nazir";
+const autherQuote: string = "Practice makes a man perfect.";
+const message: string = `${autherName} once said, \"${autherQuote}\"`;
 
 console.log(message);
