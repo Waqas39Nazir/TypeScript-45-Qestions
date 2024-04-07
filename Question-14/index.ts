@@ -5,7 +5,7 @@
  *  inviting them to dinner.
  */
 
-const guests = ["Waqas", "Waqar", "Hassan", "Ahsan"];
+const guests: string[] = ["Waqas", "Waqar", "Hassan", "Ahsan"];
 
 guests.forEach((guest: string) => {
   console.log(
