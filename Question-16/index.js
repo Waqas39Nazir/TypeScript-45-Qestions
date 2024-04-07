@@ -1,3 +1,4 @@
+"use strict";
 /*****
  * More Guests: You just found a bigger dinner table, so now more space is available.
  *  Think of three more guests to invite to dinner.
@@ -8,19 +9,11 @@
  *  Use append() to add one new guest to the end of your list.
  *  Print a new set of invitation messages, one for each person in your list.
  */
-
-const guests: string[] = ["Waqas", "Waqar", "Hassan", "Ahsan"];
-
+const guests = ["Waqas", "Waqar", "Hassan", "Ahsan"];
 console.log("I have found a bigger dinner table\n");
-
 guests.unshift("Dua Fatima");
-
 guests.splice(3, 0, "Gulshan");
-
 guests.push("Kishwar Parveen");
-
-guests.forEach((guest: string) => {
-  console.log(
-    `Hi ${guest}, please make yourself avaible for a dinner at my home at 18:00`
-  );
+guests.forEach((guest) => {
+    console.log(`Hi ${guest}, please make yourself avaible for a dinner at my home at 18:00`);
 });
